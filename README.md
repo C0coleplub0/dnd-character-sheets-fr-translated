@@ -1,4 +1,12 @@
-# dnd-character-sheets
+# Fiche perso DND V5 traduite en FR
+
+## WIP
+
+* Traduction de toutes les pages
+* Refonte de la documentation du projet
+* Améliorations mineures du fonctionnement
+  * Amélioration de la visibilité des points utilisés
+  * plus visibles
 
 > Dungeons and Dragons 5th Edition character sheets created in ReactJS.
 
