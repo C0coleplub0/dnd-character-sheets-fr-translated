@@ -10,8 +10,13 @@ import {
 import axios from 'axios'
 import qs from 'qs'
 
-import { DnDCharacterStatsSheet, DnDCharacterProfileSheet, DnDCharacterSpellSheet, DnDCharacter } from 'dnd-character-sheets'
-import 'dnd-character-sheets/dist/index.css'
+import { 
+  DnDCharacterStatsSheet, 
+  DnDCharacterProfileSheet, 
+  DnDCharacterSpellSheet, 
+  DnDCharacter 
+} from 'dnd-character-sheets'
+import './styles/dnd-character-sheets.css'
 
 function ScrollToTop() {
   const { pathname } = useLocation();

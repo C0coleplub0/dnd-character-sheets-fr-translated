@@ -68,6 +68,8 @@ export default class DnDCharacter {
   skillStealthChecked?: boolean
   skillSurvival?: string
   skillSurvivalChecked?: boolean
+  skillTromperie?: string
+  skillTromperieChecked?: boolean
 
   passivePerception?: string
   otherProficiencies?: string
