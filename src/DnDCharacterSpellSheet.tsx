@@ -72,7 +72,7 @@ class DnDCharacterSpellsSheet extends React.Component<
         <div>
           <div className='row mb-4'>
             <div className='col-md-3 pr-2 pl-2'>
-              <div className='d-and-d-page-title'>D&D</div>
+              <div className='d-and-d-page-title'>Dolh Nebul</div>
               <div className='d-and-d-attribute-collection char-name pr-3 pl-3'>
                 <input
                   type='text'
@@ -89,12 +89,22 @@ class DnDCharacterSpellsSheet extends React.Component<
               <label
                 style={{
                   width: '100%',
-                  textAlign: 'right',
+                  textAlign: 'center',
                   textTransform: 'uppercase',
                   fontSize: '11px'
                 }}
               >
-                Spellcasting Class/Ability
+                Classe d'incantations
+              </label>
+              <label
+                style={{
+                  width: '100%',
+                  textAlign: 'center',
+                  textTransform: 'uppercase',
+                  fontSize: '9px'
+                }}
+              >
+                (Caractéristique d'incantation)
               </label>
             </div>
             <div className='col-md-9 pr-2 pl-2' style={{ marginTop: '18px' }}>
@@ -116,7 +126,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Prepared Spells
+                      SORTS À PRÉPARER
                     </label>
                     <label
                       style={{
@@ -126,7 +136,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Total
+                      CHAQUE JOUR
                     </label>
                   </div>
                   <div className='col-4 pr-4 pl-4'>
@@ -145,7 +155,17 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Spell Save DC
+                      DD DE SAUVEGARDE
+                    </label>
+                    <label
+                      style={{
+                        textTransform: 'none',
+                        width: '100%',
+                        textAlign: 'center',
+                        marginBottom: '0'
+                      }}
+                    >
+                      DES SORTS
                     </label>
                   </div>
                   <div className='col-4 pr-4 pl-4'>
@@ -164,7 +184,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Spell Attack
+                      BONUS D'ATTAQUE
                     </label>
                     <label
                       style={{
@@ -174,7 +194,7 @@ class DnDCharacterSpellsSheet extends React.Component<
                         marginBottom: '0'
                       }}
                     >
-                      Bonus
+                      AVEC UN SORT
                     </label>
                   </div>
                 </div>

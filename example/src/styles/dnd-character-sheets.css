@@ -9,11 +9,17 @@
 }
 
 .d-and-d-character-sheet .d-and-d-page-title {
-  font-size: 42px;
+  font-size: 30px;
+  padding: 14px 20px;
+  background-image: url("banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center;
-  color: rgb(204, 10, 33);
+  color: rgb(51, 0, 0);
   font-weight: bold;
   font-family: cursive;
+  margin-bottom: 1%;
 }
 
 .d-and-d-character-sheet textarea
@@ -237,6 +243,7 @@
   margin-top: 10px;
   margin-bottom: 5px;
   border-bottom: none;
+  text-align: center;
 }
 
 .d-and-d-character-sheet .d-and-d-statbox.shield {
