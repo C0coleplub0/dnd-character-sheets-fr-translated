@@ -4,9 +4,13 @@
 
 * Traduction de toutes les pages
 * Refonte de la documentation du projet
-* Améliorations mineures du fonctionnement
-  * Amélioration de la visibilité des points utilisés
-  * plus visibles
+  * Comment démarrer une instance de développement localement
+  * Comment utiliser le projet
+* Améliorations du fonctionnement global
+  * Amélioration de la visibilité des points de capacité
+  * Création d'une page Maître du jeu avec accès à toutes les fiches
+  * Création d'une page par joueur
+  * Possibilité de modifier le nom de la campagne (hors code)
 
 > Dungeons and Dragons 5th Edition character sheets created in ReactJS.
 

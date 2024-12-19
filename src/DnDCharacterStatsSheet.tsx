@@ -738,14 +738,14 @@ class DnDCharacterStatsSheet extends React.Component<
                         this.updateCharacter(name, value)
                       }}
                     />
-                    <Currency
+                    {/* <Currency
                       label='PE'
                       name='ep'
                       value={character.ep}
                       onChange={(name: string, value: any) => {
                         this.updateCharacter(name, value)
                       }}
-                    />
+                    /> */}
                     <Currency
                       label='PO'
                       name='gp'

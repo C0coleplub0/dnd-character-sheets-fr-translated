@@ -33,9 +33,9 @@ function AttackTable(props: {
     <table className={classes}>
       <thead>
         <tr>
-          <th>Name</th>
-          <th style={{ width: '70px' }}>Atk Bonus</th>
-          <th>Damage/Type</th>
+          <th>Nom</th>
+          <th style={{ width: '70px' }}>Bonus d'att</th>
+          <th>Dégats / Type</th>
         </tr>
       </thead>
       <tbody>

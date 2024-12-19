@@ -164,7 +164,7 @@ const App = (props: any) => {
 
   return (
     <div>
-      <nav className='navbar navbar-expand-lg navbar-dark fixed-top' style={{ backgroundColor: 'rgb(204, 10, 33)', top: navTop === 0 ? '' : navTop + 'px' }}>
+      <nav className='navbar navbar-expand-lg navbar-dark fixed-top' style={{ backgroundColor: 'rgb(153, 0, 0)', top: navTop === 0 ? '' : navTop + 'px' }}>
           <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
               <span className='navbar-toggler-icon'></span>
           </button>
@@ -172,13 +172,13 @@ const App = (props: any) => {
             <div className='collapse navbar-collapse' id='navbarSupportedContent'>
                 <ul className='navbar-nav ml-lg-5' data-toggle='collapse' data-target='.navbar-collapse.show'>
                     <li className='nav-item mr-lg-3'>
-                        <Link className={props.location.pathname === '/stats' ? 'nav-link active' : 'nav-link'} to='/stats'>Stats</Link>
+                        <Link className={props.location.pathname === '/stats' ? 'nav-link active' : 'nav-link'} to='/stats'>Statistiques</Link>
                     </li>
                     <li className='nav-item mr-lg-3'>
                         <Link className={props.location.pathname === '/profile' ? 'nav-link active' : 'nav-link'} to='/profile'>Profile</Link>
                     </li>
                     <li className='nav-item mr-lg-3'>
-                        <Link className={props.location.pathname === '/spells' ? 'nav-link active' : 'nav-link'} to='/spells'>Spells</Link>
+                        <Link className={props.location.pathname === '/spells' ? 'nav-link active' : 'nav-link'} to='/spells'>Sorts</Link>
                     </li>
                     <li className='nav-item mr-lg-3'>
                         <Link className={props.location.pathname === '/all' ? 'nav-link active' : 'nav-link'} to='/all'>All</Link>
@@ -187,11 +187,11 @@ const App = (props: any) => {
 
                 <ul className='navbar-nav ml-auto mr-lg-5' data-toggle='collapse' data-target='.navbar-collapse.show'>
                     <li className='nav-item mr-lg-3'>
-                        <button className='btn btn-dark' onClick={() => exportCharacter()}>Export</button>
+                        <button className='btn btn-dark' onClick={() => exportCharacter()}>Exporter</button>
                         <input style={{display: 'none'}} type="file" id="selectFiles" accept="application/json" onChange={(e) => importCharacter(e)} />
-                        <button className='btn btn-dark' onClick={() => document.getElementById("selectFiles")?.click()}>Import</button>
-                        <button className='btn btn-dark' onClick={() => window.print()}>Print</button>
-                        <button className='btn btn-danger' onClick={() => clearCharacter()}>Clear</button>
+                        <button className='btn btn-dark' onClick={() => document.getElementById("selectFiles")?.click()}>Importer</button>
+                        <button className='btn btn-dark' onClick={() => window.print()}>Imprimer</button>
+                        <button className='btn btn-danger' onClick={() => clearCharacter()}>Vider</button>
                     </li>
                 </ul>
             </div>
@@ -230,11 +230,11 @@ const App = (props: any) => {
         
 
       </div>
-      <footer className="no-print page-footer font-small text-white pt-4" style={{ backgroundColor: 'rgb(211, 49, 21)' }}>
+      {/* <footer className="no-print page-footer font-small text-white pt-4" style={{ backgroundColor: 'rgb(211, 49, 21)' }}>
         <div className="container-fluid container-xl text-center text-md-left mt-2 mb-3">
             <div className="row">
               <div className="col-md-6 mt-md-0 mt-3">
-                <h5>DnD Character Sheets</h5>
+                <h5>Fiches persos DnD</h5>
                 <p>This page was created using dnd-character-sheets, an open source ReactJs library created by Daryl Buckle.</p>
               </div>
               <hr className="clearfix w-100 d-md-none pb-3" />
@@ -265,7 +265,7 @@ const App = (props: any) => {
         <div className="footer-copyright text-center mt-5 py-2 text-white small" style={{ backgroundColor: 'rgb(204, 10, 33)' }}>
           MIT © Daryl Buckle 2020
         </div>
-      </footer>
+      </footer> */}
     </div>
     
   )
