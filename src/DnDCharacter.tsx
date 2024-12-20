@@ -1,5 +1,6 @@
 export default class DnDCharacter {
   name?: string
+  pageTitle?: string
   classLevel?: string
   background?: string
   playerName?: string

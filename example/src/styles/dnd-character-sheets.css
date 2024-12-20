@@ -1,5 +1,5 @@
 .d-and-d-character-sheet {
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .d-and-d-character-sheet input[type=text] {
@@ -8,18 +8,36 @@
   width: 100%;
 }
 
+.d-and-d-character-sheet .d-and-d-attribute-collection .row {
+  padding-bottom: 5px;  /* Add this line */
+}
+
 .d-and-d-character-sheet .d-and-d-page-title {
-  font-size: 30px;
-  padding: 14px 20px;
+  padding: 14px 50px;
   background-image: url("banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  text-align: center;
-  color: rgb(51, 0, 0);
-  font-weight: bold;
-  font-family: cursive;
-  margin-bottom: 1%;
+  margin-bottom: 5px;
+  & input {
+    background: transparent;
+    margin-top: 15px;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    color: rgb(102, 51, 0);
+    font-weight: bold;
+    font-family: cursive;
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+  }
+  & input:focus {
+    outline: none;
+    /* Add any focus styles you want */
+  }
 }
 
 .d-and-d-character-sheet textarea
@@ -213,7 +231,7 @@
   border-bottom-left-radius: 15px 50%;
   border-top-right-radius: 15px 50%;
   border-bottom-right-radius: 15px 50%;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   background-color: white;
 }
 .d-and-d-character-sheet .d-and-d-attribute-collection.gray {
@@ -240,7 +258,7 @@
 .d-and-d-character-sheet .d-and-d-attribute-collection.char-name input {
   padding-left: 10px;
   font-size: 24px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 5px;
   border-bottom: none;
   text-align: center;
@@ -295,7 +313,7 @@
 }
 
 .d-and-d-character-sheet .d-and-d-save-success .d-and-d-skill-circle.active {
-  background-color: rgb(0, 50, 255)
+  background-color: rgb(0, 153, 51)
 }
 .d-and-d-character-sheet .d-and-d-save-failure .d-and-d-skill-circle.active {
   background-color: rgb(204, 10, 33)

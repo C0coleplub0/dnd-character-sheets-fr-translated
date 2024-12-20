@@ -7,6 +7,7 @@ import StatBox2 from './Components/StatBox2'
 
 import './dndstyles.css'
 import SpellTable from './Components/SpellTable'
+import PageTitle from './Components/PageTitle'
 
 interface IDnDCharacterSpellsSheetProps {
   character?: DnDCharacter
@@ -72,7 +73,12 @@ class DnDCharacterSpellsSheet extends React.Component<
         <div>
           <div className='row mb-4'>
             <div className='col-md-3 pr-2 pl-2'>
-              <div className='d-and-d-page-title'>Dolh Nebul</div>
+            <div className='d-and-d-page-title'>
+                <PageTitle 
+                  value={character.pageTitle} 
+                  onChange={(value) => this.updateCharacter('pageTitle', value)}
+                />
+              </div>
               <div className='d-and-d-attribute-collection char-name pr-3 pl-3'>
                 <input
                   type='text'
