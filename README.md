@@ -22,6 +22,17 @@ Les fiches peuvent être exportées 📥 au format Json et importées 📤.
 Elles peuvent aussi être imprimées. 🖨
 <!-- Visit [https://dnd5esheets.com](https://dnd5esheets.com) to see these components in use. -->
 
+### La page Statistiques 📈 embarque les fonctionnalités suivantes
+
+* Calcul automatique des **points de vie**
+* Calcul automatique des **modificateurs**
+
+![HP Calculator](assets/hp_calculator.png)
+
+> Appuyer sur **entré** permet d'obtenir la nouvelle valeur de HP
+
+![Modificateurs](assets/modificateurs.png)
+
 ## Liste des améliorations par rapport au projet d'origine
 
 * Traduction de toutes les pages en FR ✅
@@ -35,7 +46,7 @@ Elles peuvent aussi être imprimées. 🖨
   * Possibilité de modifier le nom de la campagne (hors code) ✅
   * Calculatrice de HP dans le champ des Points de Vie ✅
 
-![capture)](capture.png)
+![vue d'ensemble](assets/vue_d_ensemble.png)
 
 > Fiches personnage Donjon et Dragons 5ème édition crée en ReactJS.
 
