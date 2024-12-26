@@ -12,6 +12,9 @@ import AttackTable from './Components/AttackTable'
 import Currency from './Components/Currency'
 import PageTitle from './Components/PageTitle'
 
+// Import lib for calculator
+import { evaluate } from 'mathjs';
+
 import './dndstyles.css'
 
 interface IDnDCharacterStatsSheetProps {
@@ -69,6 +72,7 @@ class DnDCharacterStatsSheet extends React.Component<
     }
     return character
   }
+
 
   render() {
     const character = this.getCharacter()
@@ -608,12 +612,26 @@ class DnDCharacterStatsSheet extends React.Component<
                     />
                   </div>
                   <input
-                    type='text'
-                    className='d-and-d-cinput'
-                    value={character.hp ? character.hp : ''}
-                    onChange={(e) => this.updateCharacter('hp', e.target.value)}
+                    type="text"
+                    className="d-and-d-cinput"
+                    value={character.hp ? character.hp.toString() : ''} // Affiche les PV actuels
+                    onChange={(e) => {
+                      this.updateCharacter('hp', e.target.value); // Met à jour avec la saisie brute
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        const inputValue = e.currentTarget.value.trim(); // Supprime les espaces inutiles
+                        try {
+                          // Évalue l'expression mathématique en toute sécurité
+                          const result = evaluate(inputValue); // Utilisation de mathjs
+                          this.updateCharacter('hp', Math.round(result).toString()); // Met à jour avec le résultat arrondi
+                        } catch (error) {
+                          console.error('Erreur dans le calcul :', error); // Affiche une erreur dans la console
+                        }
+                      }
+                    }}
                   />
-                  <label className='d-and-d-title' style={{ marginTop: '5px' }}>
+                  <label className="d-and-d-title" style={{ marginTop: '5px' }}>
                     Points de vie actuels
                   </label>
                 </div>
@@ -899,5 +917,6 @@ class DnDCharacterStatsSheet extends React.Component<
     )
   }
 }
+
 
 export default DnDCharacterStatsSheet
