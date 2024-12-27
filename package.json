@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "Dungeons and Dragons 5th Edition character sheets created in ReactJS.",
   "author": "DarylBuckle",
+  "homepage": "https://c0coleplub0.github.io/dnd-character-sheets-fr-translated/",
   "license": "MIT",
   "keywords": [
     "react",
@@ -29,8 +30,8 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build",
+    "predeploy": "npm run build && cd builded_page && npm install",
+    "deploy": "gh-pages -d builded_page/public",
     "publish": "npm publish"
   },
   "peerDependencies": {
