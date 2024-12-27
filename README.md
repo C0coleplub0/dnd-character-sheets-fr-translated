@@ -2,7 +2,7 @@
 
 ## Accéder à l'application
 
-[Application](https://c0coleplub0.github.io/dnd-character-sheets-fr-translated/stats)
+[Application](https://c0coleplub0.github.io/dnd-character-sheets-fr-translated)
 
 ## Contenu
 
