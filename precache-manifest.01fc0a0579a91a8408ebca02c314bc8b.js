@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0dfbd733467663e19658d7cf6dfda4d1",
+    "revision": "a7ad7fc1f020be460e79e56335bd9ef8",
     "url": "/dnd-character-sheets-fr-translated/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dnd-character-sheets-fr-translated/static/css/2.d2b82e63.chunk.css"
   },
   {
-    "revision": "59666f91e1be5e7ab8e5",
+    "revision": "6ba1ccca9279eee2ab27",
     "url": "/dnd-character-sheets-fr-translated/static/css/main.152450d1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dnd-character-sheets-fr-translated/static/js/2.b74cd5a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59666f91e1be5e7ab8e5",
-    "url": "/dnd-character-sheets-fr-translated/static/js/main.8f6efade.chunk.js"
+    "revision": "6ba1ccca9279eee2ab27",
+    "url": "/dnd-character-sheets-fr-translated/static/js/main.1c9abd9e.chunk.js"
   },
   {
     "revision": "2ab03062dd0933cfd807",
