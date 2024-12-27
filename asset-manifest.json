@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dnd-character-sheets-fr-translated/static/css/main.152450d1.chunk.css",
+    "main.js": "/dnd-character-sheets-fr-translated/static/js/main.8f6efade.chunk.js",
+    "main.js.map": "/dnd-character-sheets-fr-translated/static/js/main.8f6efade.chunk.js.map",
+    "runtime-main.js": "/dnd-character-sheets-fr-translated/static/js/runtime-main.ad7cd33f.js",
+    "runtime-main.js.map": "/dnd-character-sheets-fr-translated/static/js/runtime-main.ad7cd33f.js.map",
+    "static/css/2.d2b82e63.chunk.css": "/dnd-character-sheets-fr-translated/static/css/2.d2b82e63.chunk.css",
+    "static/js/2.b74cd5a2.chunk.js": "/dnd-character-sheets-fr-translated/static/js/2.b74cd5a2.chunk.js",
+    "static/js/2.b74cd5a2.chunk.js.map": "/dnd-character-sheets-fr-translated/static/js/2.b74cd5a2.chunk.js.map",
+    "index.html": "/dnd-character-sheets-fr-translated/index.html",
+    "precache-manifest.622b1ac3289bb76f6b35b86a1f4f3201.js": "/dnd-character-sheets-fr-translated/precache-manifest.622b1ac3289bb76f6b35b86a1f4f3201.js",
+    "service-worker.js": "/dnd-character-sheets-fr-translated/service-worker.js",
+    "static/css/2.d2b82e63.chunk.css.map": "/dnd-character-sheets-fr-translated/static/css/2.d2b82e63.chunk.css.map",
+    "static/css/main.152450d1.chunk.css.map": "/dnd-character-sheets-fr-translated/static/css/main.152450d1.chunk.css.map",
+    "static/js/2.b74cd5a2.chunk.js.LICENSE.txt": "/dnd-character-sheets-fr-translated/static/js/2.b74cd5a2.chunk.js.LICENSE.txt",
+    "static/media/dnd-character-sheets.css": "/dnd-character-sheets-fr-translated/static/media/banner.cfa1f07f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad7cd33f.js",
+    "static/css/2.d2b82e63.chunk.css",
+    "static/js/2.b74cd5a2.chunk.js",
+    "static/css/main.152450d1.chunk.css",
+    "static/js/main.8f6efade.chunk.js"
+  ]
+}
