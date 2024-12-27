@@ -1,5 +1,9 @@
 # Fiches personnage DND V5 traduite en FR
 
+## Accéder à l'application
+
+[Application](https://c0coleplub0.github.io/dnd-character-sheets-fr-translated/stats)
+
 ## Contenu
 
 * [A propos 📜](#Apropos)
